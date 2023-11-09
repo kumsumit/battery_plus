@@ -11,8 +11,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockBatteryPlatform
-    with MockPlatformInterfaceMixin
-    implements BatteryPlatform {
+    implements BatteryPlatform, MockPlatformInterfaceMixin {
   @override
   Future<int> get batteryLevel => Future.value(42);
 

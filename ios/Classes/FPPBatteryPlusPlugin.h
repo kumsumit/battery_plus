@@ -4,5 +4,5 @@
 
 #import <Flutter/Flutter.h>
 
-@interface FLTBatteryPlusPlugin : NSObject <FlutterPlugin>
+@interface FPPBatteryPlusPlugin : NSObject <FlutterPlugin>
 @end
